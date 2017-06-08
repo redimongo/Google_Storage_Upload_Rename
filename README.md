@@ -50,4 +50,4 @@ Edit google_storage_rename_upload.php
 
 ### Follow me
 
- Twitter @russellharrower
+ Twitter [@russellharrower](http://twitter.com/russellharrower)
