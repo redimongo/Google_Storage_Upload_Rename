@@ -22,9 +22,7 @@ then put that **FULL** path below.
 ```putenv('GOOGLE_APPLICATION_CREDENTIALS=YOUR PATH TO JSON API CREDENTIALS');```
 
 Lastly we need to get the projectID from Google Cloud, this should be all numbers.
-```$storage = new StorageClient([
-      'projectId' => 'XXXXXX'
-	]);```
+``` $storage = new StorageClient([   'projectId' => 'XXXXXX' ]); ```
 
 ## What this code does
 
