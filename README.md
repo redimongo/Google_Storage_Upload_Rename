@@ -7,7 +7,7 @@ I came up with this because Google did not have an easy way to rename an uploade
 Please folk this code and improve apon it.
 
 # To Set It Up
-##Step 1
+## Step 1
 1. Install Google/Cloud using composer [Google Cloud GitHub](https://github.com/GoogleCloudPlatform/google-cloud-php)
 2. Get your .JSON file and verify your domain with google.
 
