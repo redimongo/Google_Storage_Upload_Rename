@@ -14,16 +14,16 @@ Please folk this code and improve apon it.
 ## Step 2:
 Edit google_storage_rename_upload.php
 
-Put the name of your bucket here
+1. Put the name of your bucket here
 
 ``` $b_name = 'BUCKET NAME HERE'; ```
 
-Once you have our .json file from google cloud store it in a path that is not accessable via browser (example: /home/ACCOUNTNAME/google/access_key.json)
-then put that **FULL** path below.
+2. Once you have our .json file from google cloud store it in a path that is not accessable via browser (example: /home/ACCOUNTNAME/google/access_key.json)
+ then put that **FULL** path below.
 
 ```putenv('GOOGLE_APPLICATION_CREDENTIALS=YOUR PATH TO JSON API CREDENTIALS');```
 
-Lastly we need to get the projectID from Google Cloud, this should be all numbers.
+3. Lastly we need to get the projectID from Google Cloud, this should be all numbers.
 
 ``` $storage = new StorageClient([   'projectId' => 'XXXXXX' ]); ```
 
